@@ -1,0 +1,22 @@
+/*
+calc()
+выполняет мат-кие операции + - *
+смешивает и сопоставляет занчения
+*/
+*{
+    margin: 0;
+}
+
+.navbar{
+    background: blue;
+    height: 100px;
+    color: white;
+    font-size: 3rem;
+}
+
+.banner{
+    background: red;
+    /*здесь сделали 100vh-100px) что бы страница всесте 
+    c баннером занимала 100vh */
+    min-height: calc(100vh - 100px);
+}

@@ -1,0 +1,35 @@
+/*Абсолютные значения px*/
+h1 {
+  font-size: 30px;
+  width: 200px;
+  background: blue;
+  height: 300px;
+}
+/*Относительные значения в % они берутся от
+родительского элемента в нашем случае это out*/
+.in {
+  width: 30%;
+  height: 30%;
+  background: red;
+}
+
+.out {
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
+/*1em=16px дефолтный стиль браузера
+зависит от базового размера родителя*/
+.relative{
+    font-size: 2rem;
+}
+
+.absolute{
+    font-size: 64px;
+}
+div{
+    font-size: 10px;
+}
+.rem{
+    font-size: 2rem;/*32px всегда*/
+}

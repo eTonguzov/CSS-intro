@@ -1,0 +1,19 @@
+/*
+vh - высота - процент экрана
+vw - ширина - процент экрана
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 50vw;
+    height: 50wh;
+    background: red;
+}
+.header{
+    width: 100vw;
+    height: 100hv;
+    background: blue;
+}

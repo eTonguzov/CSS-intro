@@ -1,0 +1,15 @@
+#first{
+    color: #710e0e27;
+    background-color: #000;
+}
+#second{
+    color: rgb(255, 4, 5);
+    background-color: rgb(255,255,255);
+}
+body{
+    background: #496A81;
+}
+#third{
+    color:#0000ff;
+    background: rgba(0,0,0,0.5);
+}

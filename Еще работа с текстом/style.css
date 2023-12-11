@@ -1,0 +1,22 @@
+/*
+line-height - пространство между строками
+letter-spacing - пространство между символами
+word-spacing - пространство между словами
+text-transform - изменение текста
+text-decoration - перечеркивание текста и прочее
+*/
+
+.one {
+  line-height: 1,5rem;
+  text-transform: lowercase;
+  text-decoration: line-through ;
+}
+
+.two{
+    letter-spacing: 1.2rem;
+}
+
+.three{
+    word-spacing: 1.2rem;
+}
+
